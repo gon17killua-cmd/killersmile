@@ -1,0 +1,807 @@
+<div><p>&lt;!DOCTYPE html&gt;</p>
+
+<p>&lt;html lang="en"&gt;</p>
+
+<p>&lt;head&gt;</p>
+
+<p>    &lt;meta charset="UTF-8"&gt;</p>
+
+<p>    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+
+<p>    &lt;title&gt;Bacong Central School - Bacong is Joy!&lt;/title&gt;</p>
+
+<p>    &lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
+
+<p>    &lt;script&gt;</p>
+
+<p>        tailwind.config = {</p>
+
+<p>            theme: {</p>
+
+<p>                extend: {</p>
+
+<p>                    colors: {</p>
+
+<p>                        // Dominant Maroon for primary elements</p>
+
+<p>                        'bcs-maroon': '#7A002C', // Deep, rich maroon</p>
+
+<p>                        // Secondary Blue for accents and calls-to-action</p>
+
+<p>                        'bcs-blue': '#007BFF', // Vibrant blue</p>
+
+<p>                    },</p>
+
+<p>                    fontFamily: {</p>
+
+<p>                        sans: ['Inter', 'sans-serif'],</p>
+
+<p>                    },</p>
+
+<p>                }</p>
+
+<p>            }</p>
+
+<p>        }</p>
+
+<p>    &lt;/script&gt;</p>
+
+<p>    &lt;link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&amp;display=swap" rel="stylesheet"&gt;</p>
+
+<p>    &lt;style&gt;</p>
+
+<p>        /* Custom scroll behavior for smooth jumps */</p>
+
+<p>        html {</p>
+
+<p>            scroll-behavior: smooth;</p>
+
+<p>        }</p>
+
+<p>    &lt;/style&gt;</p>
+
+<p>&lt;/head&gt;</p>
+
+<p>&lt;body&gt;</p>
+
+<p>    &lt;header&gt;</p>
+
+<p>        &lt;div&gt;</p>
+
+<p>            &lt;div&gt;</p>
+
+<p>                &lt;div&gt;</p>
+
+<p>                    &lt;a href="#"&gt;</p>
+
+<p>                        &lt;svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"&gt;</p>
+
+<p>                            &lt;path d="M4 19.5A2.5 2.5 0 016.5 17H20M6 15V5a2 2 0 012-2h10a2 2 0 012 2v10a2 2 0 01-2 2h-10a2 2 0 01-2-2zM8 7h6M8 11h6M8 15h6"/&gt;</p>
+
+<p>                        &lt;/svg&gt;</p>
+
+<p>                        &lt;span&gt;</p>
+
+<p>                            Bacong Central School</p>
+
+<p>                        &lt;/span&gt;</p>
+
+<p>                    &lt;/a&gt;</p>
+
+<p>                &lt;/div&gt;</p>
+
+<p>                &lt;div&gt;</p>
+
+<p>                    &lt;button type="button" aria-expanded="false"&gt;</p>
+
+<p>                        &lt;span&gt;Open menu&lt;/span&gt;</p>
+
+<p>                        &lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"&gt;</p>
+
+<p>                            &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /&gt;</p>
+
+<p>                        &lt;/svg&gt;</p>
+
+<p>                    &lt;/button&gt;</p>
+
+<p>                &lt;/div&gt;</p>
+
+<p>                &lt;nav&gt;</p>
+
+<p>                    &lt;a href="#"&gt;Home&lt;/a&gt;</p>
+
+<p>                    &lt;a href="#about"&gt;About Us&lt;/a&gt;</p>
+
+<p>                    &lt;a href="#academics"&gt;Academics&lt;/a&gt;</p>
+
+<p>                    &lt;a href="#faculty"&gt;Faculty&lt;/a&gt;</p>
+
+<p>                    &lt;a href="#students"&gt;Students&lt;/a&gt;</p>
+
+<p>                    &lt;a href="#news"&gt;News&lt;/a&gt;</p>
+
+<p>                    &lt;a href="#contact"&gt;Contact&lt;/a&gt;</p>
+
+<p>                &lt;/nav&gt;</p>
+
+<p>            &lt;/div&gt;</p>
+
+<p>        &lt;/div&gt;</p>
+
+<p>        &lt;div&gt;</p>
+
+<p>            &lt;div&gt;</p>
+
+<p>                &lt;a href="#"&gt;Home&lt;/a&gt;</p>
+
+<p>                &lt;a href="#about"&gt;About Us&lt;/a&gt;</p>
+
+<p>                &lt;a href="#academics"&gt;Academics&lt;/a&gt;</p>
+
+<p>                &lt;a href="#faculty"&gt;Faculty&lt;/a&gt;</p>
+
+<p>                &lt;a href="#students"&gt;Students&lt;/a&gt;</p>
+
+<p>                &lt;a href="#news"&gt;News&lt;/a&gt;</p>
+
+<p>                &lt;a href="#contact"&gt;Contact&lt;/a&gt;</p>
+
+<p>            &lt;/div&gt;</p>
+
+<p>        &lt;/div&gt;</p>
+
+<p>    &lt;/header&gt;</p>
+
+<p>    &lt;main&gt;</p>
+
+<p>        &lt;section&gt;</p>
+
+<p>            &lt;div&gt;</p>
+
+<p>                &lt;div&gt;</p>
+
+<p>                    &lt;svg fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"&gt;</p>
+
+<p>                        &lt;polygon points="50,0 100,0 50,100 0,100" /&gt;</p>
+
+<p>                    &lt;/svg&gt;</p>
+
+<p>                    &lt;div&gt;</p>
+
+<p>                        &lt;div&gt;</p>
+
+<p>                            &lt;h1&gt;</p>
+
+<p>                                &lt;span&gt;Bacong Central School&lt;/span&gt;</p>
+
+<p>                                &lt;span&gt;Bacong is Joy!&lt;/span&gt;</p>
+
+<p>                            &lt;/h1&gt;</p>
+
+<p>                            &lt;p&gt;</p>
+
+<p>                                Providing quality, holistic, and joyful education from Kindergarten through Elementary grades. Committed to forming responsible Filipino citizens.</p>
+
+<p>                            &lt;/p&gt;</p>
+
+<p>                            &lt;div&gt;</p>
+
+<p>                                &lt;div&gt;</p>
+
+<p>                                    &lt;a href="#academics"&gt;</p>
+
+<p>                                        View Curriculum</p>
+
+<p>                                    &lt;/a&gt;</p>
+
+<p>                                &lt;/div&gt;</p>
+
+<p>                                &lt;div&gt;</p>
+
+<p>                                    &lt;a href="#news"&gt;</p>
+
+<p>                                        Latest Announcements</p>
+
+<p>                                    &lt;/a&gt;</p>
+
+<p>                                &lt;/div&gt;</p>
+
+<p>                            &lt;/div&gt;</p>
+
+<p>                        &lt;/div&gt;</p>
+
+<p>                    &lt;/div&gt;</p>
+
+<p>                &lt;/div&gt;</p>
+
+<p>            &lt;/div&gt;</p>
+
+<p>            &lt;div&gt;</p>
+
+<p>                &lt;img </p>
+
+<p>                     src="https://placehold.co/1000x800/800000/ffffff?text=Bacong+Central+School+Campus" </p>
+
+<p>                     alt="Placeholder image of a colorful elementary school entrance"&gt;</p>
+
+<p>            &lt;/div&gt;</p>
+
+<p>        &lt;/section&gt;</p>
+
+<p>        &lt;section&gt;</p>
+
+<p>            &lt;div&gt;</p>
+
+<p>                &lt;div&gt;</p>
+
+<p>                    &lt;h2&gt;The Bacong Experience&lt;/h2&gt;</p>
+
+<p>                    &lt;p&gt;</p>
+
+<p>                        Nurturing Young Minds</p>
+
+<p>                    &lt;/p&gt;</p>
+
+<p>                    &lt;p&gt;</p>
+
+<p>                        We are dedicated to fostering a supportive environment where children can discover their talents, build strong foundational knowledge, and grow into happy, productive individuals.</p>
+
+<p>                    &lt;/p&gt;</p>
+
+<p>                &lt;/div&gt;</p>
+
+<p>                &lt;div&gt;</p>
+
+<p>                    &lt;dl&gt;</p>
+
+<p>                        &lt;div&gt;</p>
+
+<p>                            &lt;dt&gt;</p>
+
+<p>                                &lt;div&gt;</p>
+
+<p>                                    &lt;svg fill="none" viewBox="0 0 24 24" stroke="currentColor"&gt;</p>
+
+<p>                                        &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 21.75l-4.24-4.24m8.48 0L12 21.75m0-4.5V3"/&gt;</p>
+
+<p>                                    &lt;/svg&gt;</p>
+
+<p>                                &lt;/div&gt;</p>
+
+<p>                                &lt;p&gt;Strong Foundations&lt;/p&gt;</p>
+
+<p>                            &lt;/dt&gt;</p>
+
+<p>                            &lt;dd&gt;</p>
+
+<p>                                Mastering Reading, Writing, and Arithmetic in line with the DepEd's K to 12 curriculum goals.</p>
+
+<p>                            &lt;/dd&gt;</p>
+
+<p>                        &lt;/div&gt;</p>
+
+<p>                        &lt;div&gt;</p>
+
+<p>                            &lt;dt&gt;</p>
+
+<p>                                &lt;div&gt;</p>
+
+<p>                                    &lt;svg fill="none" viewBox="0 0 24 24" stroke="currentColor"&gt;</p>
+
+<p>                                        &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.354 13.354l5.36 5.36M18 10h.01M16 16h.01M20.354 5.646a2 2 0 00-2.828 0l-10.707 10.707L3 17.5l2.146-2.146 10.707-10.707a2 2 0 000-2.828z"/&gt;</p>
+
+<p>                                    &lt;/svg&gt;</p>
+
+<p>                                &lt;/div&gt;</p>
+
+<p>                                &lt;p&gt;Character &amp; Values&lt;/p&gt;</p>
+
+<p>                            &lt;/dt&gt;</p>
+
+<p>                            &lt;dd&gt;</p>
+
+<p>                                Integrating core Filipino values and positive character development into daily school life.</p>
+
+<p>                            &lt;/dd&gt;</p>
+
+<p>                        &lt;/div&gt;</p>
+
+<p>                        &lt;div&gt;</p>
+
+<p>                            &lt;dt&gt;</p>
+
+<p>                                &lt;div&gt;</p>
+
+<p>                                    &lt;svg fill="none" viewBox="0 0 24 24" stroke="currentColor"&gt;</p>
+
+<p>                                        &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5 2.5a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"/&gt;</p>
+
+<p>                                    &lt;/svg&gt;</p>
+
+<p>                                &lt;/div&gt;</p>
+
+<p>                                &lt;p&gt;A Place of Joy&lt;/p&gt;</p>
+
+<p>                            &lt;/dt&gt;</p>
+
+<p>                            &lt;dd&gt;</p>
+
+<p>                                Upholding our motto "Bacong is Joy!" by ensuring a safe, supportive, and fun learning environment for all.</p>
+
+<p>                            &lt;/dd&gt;</p>
+
+<p>                        &lt;/div&gt;</p>
+
+<p>                    &lt;/dl&gt;</p>
+
+<p>                &lt;/div&gt;</p>
+
+<p>            &lt;/div&gt;</p>
+
+<p>        &lt;/section&gt;</p>
+
+<p>        &lt;section&gt;</p>
+
+<p>            &lt;div&gt;</p>
+
+<p>                &lt;div&gt;</p>
+
+<p>                    &lt;h2&gt;K to 6 Curriculum&lt;/h2&gt;</p>
+
+<p>                    &lt;p&gt;</p>
+
+<p>                        DepEd Subjects for Every Grade Level</p>
+
+<p>                    &lt;/p&gt;</p>
+
+<p>                &lt;/div&gt;</p>
+
+<p>                &lt;div&gt;</p>
+
+<p>                    &lt;div&gt;</p>
+
+<p>                        &lt;h3&gt;Kindergarten&lt;/h3&gt;</p>
+
+<p>                        &lt;p&gt;</p>
+
+<p>                            Play-based learning focused on communication, social-emotional development, numeracy, and readiness skills.</p>
+
+<p>                        &lt;/p&gt;</p>
+
+<p>                    &lt;/div&gt;</p>
+
+<p>                    &lt;div&gt;</p>
+
+<p>                        &lt;h3&gt;Core Literacy &amp; Math&lt;/h3&gt;</p>
+
+<p>                        &lt;p&gt;</p>
+
+<p>                            Filipino, English, and Mathematics instruction to build essential critical thinking and language proficiency skills.</p>
+
+<p>                        &lt;/p&gt;</p>
+
+<p>                    &lt;/div&gt;</p>
+
+<p>                    &lt;div&gt;</p>
+
+<p>                        &lt;h3&gt;Sciences &amp; Araling Panlipunan&lt;/h3&gt;</p>
+
+<p>                        &lt;p&gt;</p>
+
+<p>                            Exploring the natural world and Philippine history/culture through contextualized and engaging lessons.</p>
+
+<p>                        &lt;/p&gt;</p>
+
+<p>                    &lt;/div&gt;</p>
+
+<p>                    &lt;div&gt;</p>
+
+<p>                        &lt;h3&gt;MAPEH &amp; TLE&lt;/h3&gt;</p>
+
+<p>                        &lt;p&gt;</p>
+
+<p>                            Music, Arts, PE, and Health (MAPEH) and Technology and Livelihood Education (TLE) for holistic skill development.</p>
+
+<p>                        &lt;/p&gt;</p>
+
+<p>                    &lt;/div&gt;</p>
+
+<p>                &lt;/div&gt;</p>
+
+<p>            &lt;/div&gt;</p>
+
+<p>        &lt;/section&gt;</p>
+
+<p>        </p>
+
+<p>        &lt;section&gt;</p>
+
+<p>            &lt;div&gt;</p>
+
+<p>                &lt;div&gt;</p>
+
+<p>                    &lt;h2&gt;Our Educators&lt;/h2&gt;</p>
+
+<p>                    &lt;p&gt;</p>
+
+<p>                        Dedicated to Excellence and Joy</p>
+
+<p>                    &lt;/p&gt;</p>
+
+<p>                    &lt;p&gt;</p>
+
+<p>                        Bacong Central School is proud of its highly qualified and passionate teachers who serve as mentors and role models for our students.</p>
+
+<p>                    &lt;/p&gt;</p>
+
+<p>                &lt;/div&gt;</p>
+
+<p>                &lt;div&gt;</p>
+
+<p>                    &lt;div&gt;</p>
+
+<p>                        &lt;img src="https://placehold.co/100x100/A0A0A0/FFFFFF?text=T.A" alt="Teacher Anna Placeholder"&gt;</p>
+
+<p>                        &lt;p&gt;Teacher Anna&lt;/p&gt;</p>
+
+<p>                        &lt;p&gt;Principal&lt;/p&gt;</p>
+
+<p>                        &lt;p&gt;Dedicated Leader&lt;/p&gt;</p>
+
+<p>                    &lt;/div&gt;</p>
+
+<p>                    &lt;div&gt;</p>
+
+<p>                        &lt;img src="https://placehold.co/100x100/A0A0A0/FFFFFF?text=T.J" alt="Teacher Joy Placeholder"&gt;</p>
+
+<p>                        &lt;p&gt;Teacher Joy&lt;/p&gt;</p>
+
+<p>                        &lt;p&gt;Kindergarten&lt;/p&gt;</p>
+
+<p>                        &lt;p&gt;Early Childhood Expert&lt;/p&gt;</p>
+
+<p>                    &lt;/div&gt;</p>
+
+<p>                    &lt;div&gt;</p>
+
+<p>                        &lt;img src="https://placehold.co/100x100/A0A0A0/FFFFFF?text=T.M" alt="Teacher Marco Placeholder"&gt;</p>
+
+<p>                        &lt;p&gt;Teacher Marco&lt;/p&gt;</p>
+
+<p>                        &lt;p&gt;Grade 4 Math&lt;/p&gt;</p>
+
+<p>                        &lt;p&gt;Numeracy Specialist&lt;/p&gt;</p>
+
+<p>                    &lt;/div&gt;</p>
+
+<p>                    &lt;div&gt;</p>
+
+<p>                        &lt;img src="https://placehold.co/100x100/A0A0A0/FFFFFF?text=T.E" alt="Teacher Elena Placeholder"&gt;</p>
+
+<p>                        &lt;p&gt;Teacher Elena&lt;/p&gt;</p>
+
+<p>                        &lt;p&gt;MAPEH Coordinator&lt;/p&gt;</p>
+
+<p>                        &lt;p&gt;Arts and Culture&lt;/p&gt;</p>
+
+<p>                    &lt;/div&gt;</p>
+
+<p>                &lt;/div&gt;</p>
+
+<p>            &lt;/div&gt;</p>
+
+<p>        &lt;/section&gt;</p>
+
+<p>        &lt;section&gt;</p>
+
+<p>            &lt;div&gt;</p>
+
+<p>                &lt;div&gt;</p>
+
+<p>                    &lt;h2&gt;The Learners&lt;/h2&gt;</p>
+
+<p>                    &lt;p&gt;</p>
+
+<p>                        Student Life &amp; Activities</p>
+
+<p>                    &lt;/p&gt;</p>
+
+<p>                    &lt;p&gt;</p>
+
+<p>                        Beyond the classroom, our students engage in activities that build teamwork, leadership, and community spirit, all driven by the spirit of joy!</p>
+
+<p>                    &lt;/p&gt;</p>
+
+<p>                &lt;/div&gt;</p>
+
+<p>                &lt;div&gt;</p>
+
+<p>                    &lt;div&gt;</p>
+
+<p>                        &lt;h3&gt;Campus Clubs&lt;/h3&gt;</p>
+
+<p>                        &lt;p&gt;</p>
+
+<p>                            From Science and Math clubs to arts and gardening, students have opportunities to pursue their passions.</p>
+
+<p>                        &lt;/p&gt;</p>
+
+<p>                    &lt;/div&gt;</p>
+
+<p>                    &lt;div&gt;</p>
+
+<p>                        &lt;h3&gt;Sports &amp; Athletics&lt;/h3&gt;</p>
+
+<p>                        &lt;p&gt;</p>
+
+<p>                            Inter-school competitions and field day activities promote health, fitness, and sportsmanship among all grades.</p>
+
+<p>                        &lt;/p&gt;</p>
+
+<p>                    &lt;/div&gt;</p>
+
+<p>                    &lt;div&gt;</p>
+
+<p>                        &lt;h3&gt;Community Outreach&lt;/h3&gt;</p>
+
+<p>                        &lt;p&gt;</p>
+
+<p>                            Participating in clean-up drives and local initiatives teaches students the importance of social responsibility.</p>
+
+<p>                        &lt;/p&gt;</p>
+
+<p>                    &lt;/div&gt;</p>
+
+<p>                &lt;/div&gt;</p>
+
+<p>            &lt;/div&gt;</p>
+
+<p>        &lt;/section&gt;</p>
+
+<p>        &lt;section&gt;</p>
+
+<p>            &lt;div&gt;</p>
+
+<p>                &lt;div&gt;</p>
+
+<p>                    &lt;h2&gt;The Latest&lt;/h2&gt;</p>
+
+<p>                    &lt;p&gt;</p>
+
+<p>                        School Announcements</p>
+
+<p>                    &lt;/p&gt;</p>
+
+<p>                &lt;/div&gt;</p>
+
+<p>                &lt;div&gt;</p>
+
+<p>                    &lt;article&gt;</p>
+
+<p>                        &lt;a href="#"&gt;</p>
+
+<p>                            &lt;img src="https://placehold.co/600x400/007BFF/ffffff?text=Parents+Meeting" alt="Parents meeting image"&gt;</p>
+
+<p>                        &lt;/a&gt;</p>
+
+<p>                        &lt;div&gt;</p>
+
+<p>                            &lt;div&gt;</p>
+
+<p>                                &lt;p&gt;</p>
+
+<p>                                    &lt;a href="#"&gt;Announcement&lt;/a&gt;</p>
+
+<p>                                &lt;/p&gt;</p>
+
+<p>                                &lt;a href="#"&gt;</p>
+
+<p>                                    &lt;p&gt;</p>
+
+<p>                                        General Parents-Teachers Association Meeting</p>
+
+<p>                                    &lt;/p&gt;</p>
+
+<p>                                    &lt;p&gt;</p>
+
+<p>                                        All parents are requested to attend the GPTA meeting on **Saturday, November 5th** at 9:00 AM in the school quadrangle.</p>
+
+<p>                                    &lt;/p&gt;</p>
+
+<p>                                &lt;/a&gt;</p>
+
+<p>                            &lt;/div&gt;</p>
+
+<p>                        &lt;/div&gt;</p>
+
+<p>                    &lt;/article&gt;</p>
+
+<p>                    &lt;article&gt;</p>
+
+<p>                        &lt;a href="#"&gt;</p>
+
+<p>                            &lt;img src="https://placehold.co/600x400/7A002C/ffffff?text=Reading+Month" alt="Reading book image"&gt;</p>
+
+<p>                        &lt;/a&gt;</p>
+
+<p>                        &lt;div&gt;</p>
+
+<p>                            &lt;div&gt;</p>
+
+<p>                                &lt;p&gt;</p>
+
+<p>                                    &lt;a href="#"&gt;Event&lt;/a&gt;</p>
+
+<p>                                &lt;/p&gt;</p>
+
+<p>                                &lt;a href="#"&gt;</p>
+
+<p>                                    &lt;p&gt;</p>
+
+<p>                                        National Reading Month Celebration Kicks Off!</p>
+
+<p>                                    &lt;/p&gt;</p>
+
+<p>                                    &lt;p&gt;</p>
+
+<p>                                        Join us for various literacy activities all month, including storytelling, book drives, and Read-A-Thons.</p>
+
+<p>                                    &lt;/p&gt;</p>
+
+<p>                                &lt;/a&gt;</p>
+
+<p>                            &lt;/div&gt;</p>
+
+<p>                        &lt;/div&gt;</p>
+
+<p>                    &lt;/article&gt;</p>
+
+<p>                    &lt;article&gt;</p>
+
+<p>                        &lt;a href="#"&gt;</p>
+
+<p>                            &lt;img src="https://placehold.co/600x400/007BFF/ffffff?text=Enrollment+Form" alt="Enrollment form image"&gt;</p>
+
+<p>                        &lt;/a&gt;</p>
+
+<p>                        &lt;div&gt;</p>
+
+<p>                            &lt;div&gt;</p>
+
+<p>                                &lt;p&gt;</p>
+
+<p>                                    &lt;a href="#"&gt;Admissions&lt;/a&gt;</p>
+
+<p>                                &lt;/p&gt;</p>
+
+<p>                                &lt;a href="#"&gt;</p>
+
+<p>                                    &lt;p&gt;</p>
+
+<p>                                        Early Enrollment for Next School Year is Open</p>
+
+<p>                                    &lt;/p&gt;</p>
+
+<p>                                    &lt;p&gt;</p>
+
+<p>                                        Secure a slot for your child! Enrollment forms are available in the school administration office daily from 8 AM to 4 PM.</p>
+
+<p>                                    &lt;/p&gt;</p>
+
+<p>                                &lt;/a&gt;</p>
+
+<p>                            &lt;/div&gt;</p>
+
+<p>                        &lt;/div&gt;</p>
+
+<p>                    &lt;/article&gt;</p>
+
+<p>                &lt;/div&gt;</p>
+
+<p>            &lt;/div&gt;</p>
+
+<p>        &lt;/section&gt;</p>
+
+<p>    &lt;/main&gt;</p>
+
+<p>    &lt;footer&gt;</p>
+
+<p>        &lt;div&gt;</p>
+
+<p>            &lt;h3&gt;Contact Bacong Central School&lt;/h3&gt;</p>
+
+<p>            </p>
+
+<p>            &lt;div&gt;</p>
+
+<p>                &lt;div&gt;</p>
+
+<p>                    &lt;svg fill="none" viewBox="0 0 24 24" stroke="currentColor"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"/&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/&gt;&lt;/svg&gt;</p>
+
+<p>                    &lt;span&gt;Bacong, Negros Oriental, Philippines&lt;/span&gt;</p>
+
+<p>                &lt;/div&gt;</p>
+
+<p>                &lt;div&gt;</p>
+
+<p>                    &lt;svg fill="none" viewBox="0 0 24 24" stroke="currentColor"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498A1 1 0 0121 15.72V19a2 2 0 01-2 2h-1c-3.815 0-7.6-1.527-10.463-4.39A18.064 18.064 0 013 5.463V5z"/&gt;&lt;/svg&gt;</p>
+
+<p>                    &lt;span&gt;(035) 123-4567&lt;/span&gt;</p>
+
+<p>                &lt;/div&gt;</p>
+
+<p>                &lt;div&gt;</p>
+
+<p>                    &lt;svg fill="none" viewBox="0 0 24 24" stroke="currentColor"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-1 10a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2h12a2 2 0 012 2v10z"/&gt;&lt;/svg&gt;</p>
+
+<p>                    &lt;span&gt;info@bacongcs.deped.ph&lt;/span&gt;</p>
+
+<p>                &lt;/div&gt;</p>
+
+<p>            &lt;/div&gt;</p>
+
+<p>            &lt;p&gt;</p>
+
+<p>                &amp;copy; 2024 Bacong Central School. All rights reserved. | Official DepEd Elementary School.</p>
+
+<p>            &lt;/p&gt;</p>
+
+<p>        &lt;/div&gt;</p>
+
+<p>    &lt;/footer&gt;</p>
+
+<p>    &lt;script&gt;</p>
+
+<p>        document.getElementById('mobile-menu-button').addEventListener('click', function() {</p>
+
+<p>            const menu = document.getElementById('mobile-menu');</p>
+
+<p>            const expanded = this.getAttribute('aria-expanded') === 'true' || false;</p>
+
+<p>            </p>
+
+<p>            // Toggle visibility using Tailwind's 'hidden' class</p>
+
+<p>            menu.classList.toggle('hidden');</p>
+
+<p>            </p>
+
+<p>            // Update aria-expanded attribute for accessibility</p>
+
+<p>            this.setAttribute('aria-expanded', !expanded);</p>
+
+<p>        });</p>
+
+<p>        // Close mobile menu on anchor link click (for smooth scrolling)</p>
+
+<p>        document.querySelectorAll('#mobile-menu a').forEach(item =&gt; {</p>
+
+<p>            item.addEventListener('click', () =&gt; {</p>
+
+<p>                const menu = document.getElementById('mobile-menu');</p>
+
+<p>                const button = document.getElementById('mobile-menu-button');</p>
+
+<p>                </p>
+
+<p>                // Hide the menu and reset button state</p>
+
+<p>                if (!menu.classList.contains('hidden')) {</p>
+
+<p>                    menu.classList.add('hidden');</p>
+
+<p>                    button.setAttribute('aria-expanded', 'false');</p>
+
+<p>                }</p>
+
+<p>            });</p>
+
+<p>        });</p>
+
+<p>    &lt;/script&gt;</p>
+
+<p>&lt;/body&gt;</p>
+
+<p>&lt;/html&gt;</p>
+
+</div>
